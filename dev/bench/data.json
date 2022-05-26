@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1652874026589,
+  "lastUpdate": 1653568026613,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -3918,13 +3918,239 @@
             "extra": "luau"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "a9c3cbb0107c5adb839b60af7c2597d17e4f49af",
+          "message": "Debug WIP",
+          "timestamp": "2022-05-26T15:23:29+03:00",
+          "tree_id": "6e156d8c4879fa314189183c2d53d87fc26375e4",
+          "url": "https://github.com/AllanJeremy/luau/commit/a9c3cbb0107c5adb839b60af7c2597d17e4f49af"
+        },
+        "date": 1653568026610,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "base64",
+            "value": 33.352,
+            "unit": "ms",
+            "range": "±1.275%",
+            "extra": "luau"
+          },
+          {
+            "name": "chess",
+            "value": 124.964,
+            "unit": "ms",
+            "range": "±0.707%",
+            "extra": "luau"
+          },
+          {
+            "name": "life",
+            "value": 101.3,
+            "unit": "ms",
+            "range": "±0.970%",
+            "extra": "luau"
+          },
+          {
+            "name": "qsort",
+            "value": 93.631,
+            "unit": "ms",
+            "range": "±0.782%",
+            "extra": "luau"
+          },
+          {
+            "name": "sha256",
+            "value": 28.673,
+            "unit": "ms",
+            "range": "±0.954%",
+            "extra": "luau"
+          },
+          {
+            "name": "ack",
+            "value": 70.233,
+            "unit": "ms",
+            "range": "±1.007%",
+            "extra": "luau"
+          },
+          {
+            "name": "binary-trees",
+            "value": 36.634,
+            "unit": "ms",
+            "range": "±0.843%",
+            "extra": "luau"
+          },
+          {
+            "name": "fannkuchen-redux",
+            "value": 15.293,
+            "unit": "ms",
+            "range": "±0.863%",
+            "extra": "luau"
+          },
+          {
+            "name": "fixpoint-fact",
+            "value": 74.726,
+            "unit": "ms",
+            "range": "±1.035%",
+            "extra": "luau"
+          },
+          {
+            "name": "heapsort",
+            "value": 28.62,
+            "unit": "ms",
+            "range": "±0.804%",
+            "extra": "luau"
+          },
+          {
+            "name": "mandel",
+            "value": 87.287,
+            "unit": "ms",
+            "range": "±0.625%",
+            "extra": "luau"
+          },
+          {
+            "name": "n-body",
+            "value": 38.344,
+            "unit": "ms",
+            "range": "±0.712%",
+            "extra": "luau"
+          },
+          {
+            "name": "qt",
+            "value": 82.402,
+            "unit": "ms",
+            "range": "±0.634%",
+            "extra": "luau"
+          },
+          {
+            "name": "queen",
+            "value": 2.361,
+            "unit": "2ms",
+            "range": "±2.624%",
+            "extra": "luau"
+          },
+          {
+            "name": "scimark",
+            "value": 97.915,
+            "unit": "ms",
+            "range": "±1.505%",
+            "extra": "luau"
+          },
+          {
+            "name": "spectral-norm",
+            "value": 19.838,
+            "unit": "ms",
+            "range": "±1.923%",
+            "extra": "luau"
+          },
+          {
+            "name": "sieve",
+            "value": 119.538,
+            "unit": "ms",
+            "range": "±0.857%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-cube",
+            "value": 9.959,
+            "unit": "9ms",
+            "range": "±2.496%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-morph",
+            "value": 12.579,
+            "unit": "ms",
+            "range": "±4.781%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-raytrace",
+            "value": 12.046,
+            "unit": "ms",
+            "range": "±1.912%",
+            "extra": "luau"
+          },
+          {
+            "name": "controlflow-recursive",
+            "value": 6.537,
+            "unit": "6ms",
+            "range": "±0.826%",
+            "extra": "luau"
+          },
+          {
+            "name": "crypto-aes",
+            "value": 20.165,
+            "unit": "ms",
+            "range": "±1.497%",
+            "extra": "luau"
+          },
+          {
+            "name": "fannkuch",
+            "value": 29.6,
+            "unit": "ms",
+            "range": "±1.647%",
+            "extra": "luau"
+          },
+          {
+            "name": "math-cordic",
+            "value": 18.869,
+            "unit": "ms",
+            "range": "±1.197%",
+            "extra": "luau"
+          },
+          {
+            "name": "math-partial-sums",
+            "value": 6.239,
+            "unit": "6ms",
+            "range": "±3.275%",
+            "extra": "luau"
+          },
+          {
+            "name": "n-body-oop",
+            "value": 65.099,
+            "unit": "ms",
+            "range": "±2.450%",
+            "extra": "luau"
+          },
+          {
+            "name": "tictactoe",
+            "value": 187.12,
+            "unit": "ms",
+            "range": "±1.375%",
+            "extra": "luau"
+          },
+          {
+            "name": "trig",
+            "value": 31.303,
+            "unit": "ms",
+            "range": "±1.232%",
+            "extra": "luau"
+          }
+        ]
       }
     ],
     "Luau Benchmarks (CacheGrind)": [
       {
         "commit": {
-          "author": { "name": "AllanJeremy", "username": "AllanJeremy" },
-          "committer": { "name": "AllanJeremy", "username": "AllanJeremy" },
+          "author": {
+            "name": "AllanJeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "name": "AllanJeremy",
+            "username": "AllanJeremy"
+          },
           "id": "d7e7371898c6e60bbc291c33143dfc5ef3daec54",
           "message": "Add cachegrind",
           "timestamp": "2022-05-18T09:06:10Z",
