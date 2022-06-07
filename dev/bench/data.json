@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1652874026589,
+  "lastUpdate": 1654579363870,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -3923,8 +3923,14 @@
     "Luau Benchmarks (CacheGrind)": [
       {
         "commit": {
-          "author": { "name": "AllanJeremy", "username": "AllanJeremy" },
-          "committer": { "name": "AllanJeremy", "username": "AllanJeremy" },
+          "author": {
+            "name": "AllanJeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "name": "AllanJeremy",
+            "username": "AllanJeremy"
+          },
           "id": "d7e7371898c6e60bbc291c33143dfc5ef3daec54",
           "message": "Add cachegrind",
           "timestamp": "2022-05-18T09:06:10Z",
@@ -4027,6 +4033,39 @@
             "unit": "misses/op",
             "extra": "1 samples\nroblox-cli version: unknown",
             "type": "roblox"
+          }
+        ]
+      }
+    ],
+    "Luau Analyze": [
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "c35d34654146654d81b41922aaceac92c65be845",
+          "message": "Debug WIP: Added push changes to static analysis workflow",
+          "timestamp": "2022-06-07T08:19:13+03:00",
+          "tree_id": "149affd24521bbb7dd394deef9e99547080258cf",
+          "url": "https://github.com/AllanJeremy/luau/commit/c35d34654146654d81b41922aaceac92c65be845"
+        },
+        "date": 1654579363867,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 4.4,
+            "unit": "4ms",
+            "range": "±0.06%",
+            "extra": "luau"
           }
         ]
       }
