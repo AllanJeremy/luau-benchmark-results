@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1654579363870,
+  "lastUpdate": 1654579755901,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4033,6 +4033,39 @@
             "unit": "misses/op",
             "extra": "1 samples\nroblox-cli version: unknown",
             "type": "roblox"
+          }
+        ]
+      }
+    ],
+    "Luau Analyze": [
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "1221f3f19ee40e35fd6d4f113eb28d85e71ace54",
+          "message": "Debug WIP: Updated measure time output structure",
+          "timestamp": "2022-06-07T08:26:23+03:00",
+          "tree_id": "3c89d13af7b08d144da1fd14669b4db01eb6d7d9",
+          "url": "https://github.com/AllanJeremy/luau/commit/1221f3f19ee40e35fd6d4f113eb28d85e71ace54"
+        },
+        "date": 1654579755899,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.5,
+            "unit": "3",
+            "range": "±+/-",
+            "extra": "on"
           }
         ]
       }
