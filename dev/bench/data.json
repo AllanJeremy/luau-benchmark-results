@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1654606532407,
+  "lastUpdate": 1654684622568,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4282,6 +4282,37 @@
             "value": 3.11,
             "unit": "3ms",
             "range": "±0.01%",
+            "extra": "luau"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "e3a3f794e63606f473aa8dd42589d19a35c6cbd9",
+          "message": " Debug WIP: Updated run with cachegrind script",
+          "timestamp": "2022-06-08T13:34:01+03:00",
+          "tree_id": "4b34cca2eef53f15e0309bd19bb50a7ca4001265",
+          "url": "https://github.com/AllanJeremy/luau/commit/e3a3f794e63606f473aa8dd42589d19a35c6cbd9"
+        },
+        "date": 1654684622566,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.52,
+            "unit": "3ms",
+            "range": "±0.02%",
             "extra": "luau"
           }
         ]
