@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1655113977823,
+  "lastUpdate": 1655114712381,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4856,6 +4856,37 @@
             "value": 3.58,
             "unit": "3ms",
             "range": "±0.05%",
+            "extra": "luau"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "64f5837c718bc84a0e3b5ea7962ca4bccbb957f8",
+          "message": "Debug WIP: Updated python setup",
+          "timestamp": "2022-06-13T13:01:38+03:00",
+          "tree_id": "d778bc396a078d4de5a587dbd10770a95a680a78",
+          "url": "https://github.com/AllanJeremy/luau/commit/64f5837c718bc84a0e3b5ea7962ca4bccbb957f8"
+        },
+        "date": 1655114712378,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.45,
+            "unit": "3ms",
+            "range": "±0.03%",
             "extra": "luau"
           }
         ]
