@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1654789795677,
+  "lastUpdate": 1655113977823,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4825,6 +4825,37 @@
             "value": 4.14,
             "unit": "4ms",
             "range": "±0.03%",
+            "extra": "luau"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "48d4969f625e3bc9e3c937f6f618171b863cd5aa",
+          "message": "Debug WIP: Converged static analysis benchmarks into one file",
+          "timestamp": "2022-06-10T12:45:56+03:00",
+          "tree_id": "58872c8d20c39c90186023f29955da60c19d3f7d",
+          "url": "https://github.com/AllanJeremy/luau/commit/48d4969f625e3bc9e3c937f6f618171b863cd5aa"
+        },
+        "date": 1655113977820,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.58,
+            "unit": "3ms",
+            "range": "±0.05%",
             "extra": "luau"
           }
         ]
