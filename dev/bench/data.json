@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1655124162662,
+  "lastUpdate": 1655124425503,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4980,6 +4980,37 @@
             "value": 3.63,
             "unit": "3ms",
             "range": "±0.02%",
+            "extra": "luau"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "1b670632448df237e2948c7be90636ac434c4596",
+          "message": "Debug WIP: Removed name alias for numpy",
+          "timestamp": "2022-06-13T15:43:20+03:00",
+          "tree_id": "46d75fc2ca756c72300ed7bfd75495dd441a563b",
+          "url": "https://github.com/AllanJeremy/luau/commit/1b670632448df237e2948c7be90636ac434c4596"
+        },
+        "date": 1655124425500,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.4,
+            "unit": "3ms",
+            "range": "±0.01%",
             "extra": "luau"
           }
         ]
