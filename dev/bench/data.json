@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1655114712381,
+  "lastUpdate": 1655120321721,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks": [
@@ -4887,6 +4887,37 @@
             "value": 3.45,
             "unit": "3ms",
             "range": "±0.03%",
+            "extra": "luau"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "acd937e16f2cce916334c4167c452c03a8d77e38",
+          "message": "Debug WIP: Updated install python deps",
+          "timestamp": "2022-06-13T14:34:58+03:00",
+          "tree_id": "20cf64412d9bdafee25a6fa0ad1c3db6b4e205d2",
+          "url": "https://github.com/AllanJeremy/luau/commit/acd937e16f2cce916334c4167c452c03a8d77e38"
+        },
+        "date": 1655120321718,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "duration",
+            "value": 3.44,
+            "unit": "3ms",
+            "range": "±0.01%",
             "extra": "luau"
           }
         ]
