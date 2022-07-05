@@ -8,7 +8,6 @@
     pytest: "#3572a5",
     googlecpp: "#f34b7d",
     catch2: "#f34b7d",
-    benchmarkluau: "#000080",
     roblox: "#000080",
     _: "#333333",
   };
@@ -168,9 +167,35 @@
     }
   }
 
-  fetch("./data.json")
-    .then((response) => response.json())
-    .then((data) => {
-      renderAllChars(init(data));
-    });
+  function clearChars() {
+    const main = document.getElementById("main");
+    main.innerText = "";
+  }
+
+  // fetch("../data-macos-11.json")
+  //   .then((response) => response.json())
+  //   .then((data) => {
+  //     renderAllChars(init(data));
+  //   });
+
+  reloadData("macos-11");
+
+  document
+    .getElementById("macos")
+    .addEventListener("click", reloadData.bind(undefined, "macos-11"));
+  document
+    .getElementById("windows")
+    .addEventListener("click", reloadData.bind(undefined, "windows-latest"));
+  document
+    .getElementById("ubuntu")
+    .addEventListener("click", reloadData.bind(undefined, "ubuntu-latest"));
+
+  function reloadData(name) {
+    fetch(`./data-${name}.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        clearChars();
+        renderAllChars(init(data));
+      });
+  }
 })();
