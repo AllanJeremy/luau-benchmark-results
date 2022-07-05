@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1657036655558,
+  "lastUpdate": 1657036849364,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Analyze": [
@@ -1930,6 +1930,238 @@
             "extra": "luau"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "committer": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "id": "03e395fa7802215da771abcc2fcb8aaa68a4fd38",
+          "message": "build: added macos to unix matrix",
+          "timestamp": "2022-07-05T15:34:58Z",
+          "url": "https://github.com/AllanJeremy/luau/commit/03e395fa7802215da771abcc2fcb8aaa68a4fd38"
+        },
+        "date": 1657036848450,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "base64",
+            "value": 30.887,
+            "unit": "ms",
+            "range": "±0.073%",
+            "extra": "luau"
+          },
+          {
+            "name": "life",
+            "value": 100.759,
+            "unit": "ms",
+            "range": "±0.031%",
+            "extra": "luau"
+          },
+          {
+            "name": "sha256",
+            "value": 29.862,
+            "unit": "ms",
+            "range": "±0.016%",
+            "extra": "luau"
+          },
+          {
+            "name": "qsort",
+            "value": 90.296,
+            "unit": "ms",
+            "range": "±0.119%",
+            "extra": "luau"
+          },
+          {
+            "name": "sieve",
+            "value": 212.171,
+            "unit": "ms",
+            "range": "±0.049%",
+            "extra": "luau"
+          },
+          {
+            "name": "tictactoe",
+            "value": 184.152,
+            "unit": "ms",
+            "range": "±0.172%",
+            "extra": "luau"
+          },
+          {
+            "name": "chess",
+            "value": 127.313,
+            "unit": "ms",
+            "range": "±0.026%",
+            "extra": "luau"
+          },
+          {
+            "name": "trig",
+            "value": 29.458,
+            "unit": "ms",
+            "range": "±0.088%",
+            "extra": "luau"
+          },
+          {
+            "name": "math-cordic",
+            "value": 21.411,
+            "unit": "ms",
+            "range": "±0.354%",
+            "extra": "luau"
+          },
+          {
+            "name": "fannkuch",
+            "value": 31.258,
+            "unit": "ms",
+            "range": "±0.092%",
+            "extra": "luau"
+          },
+          {
+            "name": "access-binary-trees",
+            "value": 5.804,
+            "unit": "5ms",
+            "range": "±0.079%",
+            "extra": "luau"
+          },
+          {
+            "name": "crypto-aes",
+            "value": 19.197,
+            "unit": "ms",
+            "range": "±0.046%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-morph",
+            "value": 11.29,
+            "unit": "ms",
+            "range": "±0.025%",
+            "extra": "luau"
+          },
+          {
+            "name": "math-spectral-norm",
+            "value": 7.375,
+            "unit": "7ms",
+            "range": "±0.067%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-raytrace",
+            "value": 15.228,
+            "unit": "ms",
+            "range": "±0.128%",
+            "extra": "luau"
+          },
+          {
+            "name": "math-partial-sums",
+            "value": 5.819,
+            "unit": "5ms",
+            "range": "±0.047%",
+            "extra": "luau"
+          },
+          {
+            "name": "3d-cube",
+            "value": 10.905,
+            "unit": "ms",
+            "range": "±0.584%",
+            "extra": "luau"
+          },
+          {
+            "name": "n-body-oop",
+            "value": 56.285,
+            "unit": "ms",
+            "range": "±0.117%",
+            "extra": "luau"
+          },
+          {
+            "name": "controlflow-recursive",
+            "value": 6.479,
+            "unit": "6ms",
+            "range": "±0.049%",
+            "extra": "luau"
+          },
+          {
+            "name": "binary-trees",
+            "value": 35.854,
+            "unit": "ms",
+            "range": "±0.333%",
+            "extra": "luau"
+          },
+          {
+            "name": "n-body",
+            "value": 36.414,
+            "unit": "ms",
+            "range": "±0.135%",
+            "extra": "luau"
+          },
+          {
+            "name": "fannkuchen-redux",
+            "value": 16.276,
+            "unit": "ms",
+            "range": "±0.142%",
+            "extra": "luau"
+          },
+          {
+            "name": "spectral-norm",
+            "value": 25.436,
+            "unit": "ms",
+            "range": "±0.026%",
+            "extra": "luau"
+          },
+          {
+            "name": "scimark",
+            "value": 97.426,
+            "unit": "ms",
+            "range": "±0.064%",
+            "extra": "luau"
+          },
+          {
+            "name": "queen",
+            "value": 2.488,
+            "unit": "2ms",
+            "range": "±0.307%",
+            "extra": "luau"
+          },
+          {
+            "name": "fixpoint-fact",
+            "value": 78.206,
+            "unit": "ms",
+            "range": "±0.463%",
+            "extra": "luau"
+          },
+          {
+            "name": "qt",
+            "value": 80.322,
+            "unit": "ms",
+            "range": "±0.305%",
+            "extra": "luau"
+          },
+          {
+            "name": "mandel",
+            "value": 92.34,
+            "unit": "ms",
+            "range": "±0.168%",
+            "extra": "luau"
+          },
+          {
+            "name": "heapsort",
+            "value": 30.198,
+            "unit": "ms",
+            "range": "±0.054%",
+            "extra": "luau"
+          },
+          {
+            "name": "ack",
+            "value": 75.151,
+            "unit": "ms",
+            "range": "±0.065%",
+            "extra": "luau"
+          }
+        ]
       }
     ],
     "Luau Benchmarks (ubuntu-latest - CacheGrind)": [
@@ -2424,6 +2656,172 @@
           {
             "name": "Performance#LL_DataWriteCacheMisses",
             "value": 0.0017747647,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "committer": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "id": "03e395fa7802215da771abcc2fcb8aaa68a4fd38",
+          "message": "build: added macos to unix matrix",
+          "timestamp": "2022-07-05T15:34:58Z",
+          "url": "https://github.com/AllanJeremy/luau/commit/03e395fa7802215da771abcc2fcb8aaa68a4fd38"
+        },
+        "date": 1657036849361,
+        "tool": "roblox",
+        "benches": [
+          {
+            "name": "PerformanceCold#TotalInstructionsExecuted",
+            "value": 6656441059,
+            "range": "±0%",
+            "unit": "executions",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_InstrReadCacheMisses",
+            "value": 0.0101843188,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_InstrReadCacheMisses",
+            "value": 0.0000080914,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#TotalMemoryReads",
+            "value": 1887366345,
+            "range": "±0%",
+            "unit": "reads",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_DataReadCacheMisses",
+            "value": 0.0240773945,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_DataReadCacheMisses",
+            "value": 0.0005131812,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#TotalMemoryWrites",
+            "value": 796648279,
+            "range": "±0%",
+            "unit": "writes",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_DataWriteCacheMisses",
+            "value": 0.0101249764,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_DataWriteCacheMisses",
+            "value": 0.0017720367,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalInstructionsExecuted",
+            "value": 6649171435,
+            "range": "±0%",
+            "unit": "executions",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_InstrReadCacheMisses",
+            "value": 0.0101432763,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_InstrReadCacheMisses",
+            "value": 0.0000080935,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalMemoryReads",
+            "value": 1885742175,
+            "range": "±0%",
+            "unit": "reads",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_DataReadCacheMisses",
+            "value": 0.0240725268,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_DataReadCacheMisses",
+            "value": 0.0005137707,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalMemoryWrites",
+            "value": 796167100,
+            "range": "±0%",
+            "unit": "writes",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_DataWriteCacheMisses",
+            "value": 0.0101391492,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_DataWriteCacheMisses",
+            "value": 0.0017730549,
             "range": "±0%",
             "unit": "misses/op",
             "extra": "1 samples\nroblox-cli version: unknown",
