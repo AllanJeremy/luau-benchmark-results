@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1657034432733,
+  "lastUpdate": 1657034772494,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Benchmarks (Windows Win32)": [
@@ -463,6 +463,240 @@
             "value": 70.615,
             "unit": "ms",
             "range": "±1.068%",
+            "extra": "luau.exe"
+          }
+        ]
+      }
+    ],
+    "Luau Benchmarks (Windows x64)": [
+      {
+        "commit": {
+          "author": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "committer": {
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy",
+            "email": "aj.dev254@gmail.com"
+          },
+          "id": "8ba445578811aaaca72c7dc432aa015475253758",
+          "message": "fix: sudoing the benchmark",
+          "timestamp": "2022-07-05T15:15:10Z",
+          "url": "https://github.com/AllanJeremy/luau/commit/8ba445578811aaaca72c7dc432aa015475253758"
+        },
+        "date": 1657034772493,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "base64",
+            "value": 40.755,
+            "unit": "ms",
+            "range": "±0.600%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "deltablue",
+            "value": 84.121,
+            "unit": "ms",
+            "range": "±5.509%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "life",
+            "value": 146.86,
+            "unit": "ms",
+            "range": "±0.417%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "qsort",
+            "value": 131.511,
+            "unit": "ms",
+            "range": "±0.747%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "sha256",
+            "value": 35.625,
+            "unit": "ms",
+            "range": "±0.303%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "sieve",
+            "value": 173.103,
+            "unit": "ms",
+            "range": "±0.798%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "tictactoe",
+            "value": 246.09,
+            "unit": "ms",
+            "range": "±0.588%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "trig",
+            "value": 35.136,
+            "unit": "ms",
+            "range": "±0.313%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "ack",
+            "value": 85.011,
+            "unit": "ms",
+            "range": "±0.235%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "binary-trees",
+            "value": 51.944,
+            "unit": "ms",
+            "range": "±0.300%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "fannkuchen-redux",
+            "value": 19.322,
+            "unit": "ms",
+            "range": "±0.316%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "fixpoint-fact",
+            "value": 89.519,
+            "unit": "ms",
+            "range": "±0.268%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "heapsort",
+            "value": 35.608,
+            "unit": "ms",
+            "range": "±0.378%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "mandel",
+            "value": 129.143,
+            "unit": "ms",
+            "range": "±0.412%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "n-body",
+            "value": 49.294,
+            "unit": "ms",
+            "range": "±2.660%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "qt",
+            "value": 124.897,
+            "unit": "ms",
+            "range": "±12.520%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "queen",
+            "value": 2.974,
+            "unit": "2ms",
+            "range": "±1.048%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "scimark",
+            "value": 121.663,
+            "unit": "ms",
+            "range": "±0.751%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "spectral-norm",
+            "value": 25.498,
+            "unit": "ms",
+            "range": "±0.698%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "3d-cube",
+            "value": 14.116,
+            "unit": "ms",
+            "range": "±0.374%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "3d-morph",
+            "value": 13.886,
+            "unit": "ms",
+            "range": "±0.923%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "3d-raytrace",
+            "value": 23.558,
+            "unit": "ms",
+            "range": "±2.105%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "access-binary-trees",
+            "value": 7.491,
+            "unit": "7ms",
+            "range": "±0.324%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "controlflow-recursive",
+            "value": 7.855,
+            "unit": "7ms",
+            "range": "±0.394%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "crypto-aes",
+            "value": 24.653,
+            "unit": "ms",
+            "range": "±0.454%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "fannkuch",
+            "value": 38.889,
+            "unit": "ms",
+            "range": "±0.427%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "math-cordic",
+            "value": 24.442,
+            "unit": "ms",
+            "range": "±0.212%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "math-partial-sums",
+            "value": 10.589,
+            "unit": "ms",
+            "range": "±0.303%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "math-spectral-norm",
+            "value": 9.033,
+            "unit": "9ms",
+            "range": "±0.525%",
+            "extra": "luau.exe"
+          },
+          {
+            "name": "n-body-oop",
+            "value": 73.78,
+            "unit": "ms",
+            "range": "±9.755%",
             "extra": "luau.exe"
           }
         ]
