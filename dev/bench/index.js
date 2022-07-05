@@ -172,17 +172,17 @@
     main.innerText = "";
   }
 
-  // fetch("../data-macos-11.json")
+  // fetch("../data-macos-latest.json")
   //   .then((response) => response.json())
   //   .then((data) => {
   //     renderAllChars(init(data));
   //   });
 
-  reloadData("macos-11");
+  reloadData("macos-latest");
 
   document
     .getElementById("macos")
-    .addEventListener("click", reloadData.bind(undefined, "macos-11"));
+    .addEventListener("click", reloadData.bind(undefined, "macos-latest"));
   document
     .getElementById("windows")
     .addEventListener("click", reloadData.bind(undefined, "windows-latest"));
