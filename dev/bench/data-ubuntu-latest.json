@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1662529864760,
+  "lastUpdate": 1662529866523,
   "repoUrl": "https://github.com/AllanJeremy/luau",
   "entries": {
     "Luau Analyze": [
@@ -6381,6 +6381,174 @@
           {
             "name": "Performance#LL_DataWriteCacheMisses",
             "value": 0.0034741091,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "committer": {
+            "email": "aj.dev254@gmail.com",
+            "name": "Allan Jeremy",
+            "username": "AllanJeremy"
+          },
+          "distinct": true,
+          "id": "985d553c4d4108060166affc0678dcb1c09fa310",
+          "message": "build: re-enable win32 runs",
+          "timestamp": "2022-09-07T08:45:38+03:00",
+          "tree_id": "7f1ce63e08d90856787a56deac08fa3699fc49d0",
+          "url": "https://github.com/AllanJeremy/luau/commit/985d553c4d4108060166affc0678dcb1c09fa310"
+        },
+        "date": 1662529866521,
+        "tool": "roblox",
+        "benches": [
+          {
+            "name": "PerformanceCold#TotalInstructionsExecuted",
+            "value": 172499884,
+            "range": "±0%",
+            "unit": "executions",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_InstrReadCacheMisses",
+            "value": 0.0092811077,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_InstrReadCacheMisses",
+            "value": 0.0000892406,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#TotalMemoryReads",
+            "value": 46911094,
+            "range": "±0%",
+            "unit": "reads",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_DataReadCacheMisses",
+            "value": 0.0341458249,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_DataReadCacheMisses",
+            "value": 0.0004256989,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#TotalMemoryWrites",
+            "value": 20566876,
+            "range": "±0%",
+            "unit": "writes",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#L1_DataWriteCacheMisses",
+            "value": 0.0125255775,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "PerformanceCold#LL_DataWriteCacheMisses",
+            "value": 0.0042250461,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalInstructionsExecuted",
+            "value": 162885873,
+            "range": "±0%",
+            "unit": "executions",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_InstrReadCacheMisses",
+            "value": 0.0096006914,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_InstrReadCacheMisses",
+            "value": 0.0000926722,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalMemoryReads",
+            "value": 44356005,
+            "range": "±0%",
+            "unit": "reads",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_DataReadCacheMisses",
+            "value": 0.0352882772,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_DataReadCacheMisses",
+            "value": 0.000458337,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#TotalMemoryWrites",
+            "value": 19608959,
+            "range": "±0%",
+            "unit": "writes",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#L1_DataWriteCacheMisses",
+            "value": 0.0125979151,
+            "range": "±0%",
+            "unit": "misses/op",
+            "extra": "1 samples\nroblox-cli version: unknown",
+            "type": "roblox"
+          },
+          {
+            "name": "Performance#LL_DataWriteCacheMisses",
+            "value": 0.004410943,
             "range": "±0%",
             "unit": "misses/op",
             "extra": "1 samples\nroblox-cli version: unknown",
